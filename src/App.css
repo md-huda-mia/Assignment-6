@@ -1,0 +1,21 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.countries_container,
+.posts_container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+.section_title h1 {
+  border-bottom: 2px solid #ddd;
+  padding-bottom: 10px;
+}
+.mt {
+  margin-top: 100px;
+}

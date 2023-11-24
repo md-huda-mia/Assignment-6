@@ -1,0 +1,53 @@
+.counter_app_section {
+  min-height: 400px;
+  /* display: grid;
+  align-items: center;
+  justify-content: center; */
+}
+.counter_area {
+  width: 100%;
+  text-align: center;
+}
+.conter_container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+.total {
+  font-size: 40px;
+  font-style: italic;
+  font-weight: 700;
+  color: #178f6f;
+}
+
+.counting {
+  margin-bottom: 50px;
+}
+button.btn {
+  background: #000;
+  color: #fff;
+  border: none;
+  padding: 10px 30px;
+  border-radius: 5px;
+  font-size: 20px;
+  font-family: none;
+  cursor: pointer;
+  transition: all 0.5s ease;
+}
+button.btn:hover {
+  background: #178f6f;
+}
+.reset {
+  margin-top: 20px;
+}
+
+button.reset {
+  background: #be0505;
+  border: none;
+  padding: 10px 30px;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 20px;
+  text-transform: uppercase;
+  cursor: pointer;
+}
